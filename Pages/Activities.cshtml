@@ -1,0 +1,20 @@
+@page
+@model Activities
+@inject DataService DataService
+@{
+    ViewData["Title"] = "Activities";
+}
+<link rel="stylesheet" href="/css/site.css" />
+
+<h1>Exciting Eco-Adventures</h1>
+
+<ul>
+    @foreach (var activity in DataService.GetActivities())
+    {
+        <li>
+            <h2>@activity.Name</h2>
+            <p>@activity.Description</p>
+            <p>Location: @activity.Location</p>
+        </li>
+    }
+</ul>

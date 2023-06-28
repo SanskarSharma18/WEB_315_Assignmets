@@ -1,0 +1,20 @@
+@page
+@model Destinations
+@inject DataService DataService
+@{
+    ViewData["Title"] = "Destinations";
+}
+<link rel="stylesheet" href="/css/site.css" />
+
+<h1>Explore Eco-Friendly Destinations</h1>
+
+<ul>
+    @foreach (var destinations in DataService.GetDestinations())
+    {
+        <li>
+            <h2>@destinations.Name</h2>
+            <p>@destinations.Description</p>
+            <p>Location: @destinations.Location</p>
+        </li>
+    }
+</ul>
