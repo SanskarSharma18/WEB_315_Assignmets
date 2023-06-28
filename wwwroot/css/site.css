@@ -1,1 +1,52 @@
+/* File: site.css */
 
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #004080;
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Specific page styles */
+/* Home page */
+.home-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Destinations page */
+.destinations-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Activities page */
+.activities-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
