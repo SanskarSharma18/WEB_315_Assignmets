@@ -80,7 +80,7 @@ link Destinations
 0628
 committ all changes on the GitHub
 
-16 Oct 2022
+28  JUN 2023
 1112 am
 Clone repostory from GitHub
 Run web application to cheack its work properly or not
@@ -96,6 +96,6 @@ update index, about and product page
 change images 
 update readme.
 
-17 oct 2022
+28  JUN 2023
 change font
 assignment2 complete
