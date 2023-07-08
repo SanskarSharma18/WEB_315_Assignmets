@@ -1,13 +1,13 @@
-WEB-315 Assignment-2
+WEB-315 Assignment-3
 
-28  JUN 2023
-Yesterday 13 oct 2022 i started assignmnet and complete till step 4 but I forget user account authentication
+07 JUL 2023
+Yesterday 06 JUL 2023 i started assignmnet and complete till step 4 but I forget user account authentication
 so when run my application it cannot connect with database
 I got this error
 "SqlException: Cannot open database "EcoQuestContext-1" requested by the login. The login failed. Login failed for user '\W0794654'."
 I delete my web application from the repository and start again
 
-28  JUN 2023
+07 JUL 2023
 Today I started assignmnet again from scratch 
 again i get error while scaffolding 
 it genrate two controller class 
@@ -15,7 +15,7 @@ again i delete project
 start again
 
 ﻿
-28  JUN 2023
+07 JUL 2023
 0434 pm
 Program Created by : Sanskar Sharma
 Purpose: creating a default ASP.NET core web app whch name is EcoQuestItems
@@ -80,7 +80,7 @@ link Destinations
 0628
 committ all changes on the GitHub
 
-28  JUN 2023
+07 JUL 2023
 1112 am
 Clone repostory from GitHub
 Run web application to cheack its work properly or not
@@ -96,6 +96,6 @@ update index, about and product page
 change images 
 update readme.
 
-28  JUN 2023
+07 JUL 2023
 change font
-assignment2 complete
+assignment3 complete
